@@ -98,7 +98,7 @@ server.on("upgrade", (request, socket, head) => {
 
 app.post("/", (req, res) => {
   const id = req.headers.id;
-  console.log("Received ID:", id);
+  //console.log("Received ID:", id);
 
   // Ensure ID is provided
   if (!id) {
